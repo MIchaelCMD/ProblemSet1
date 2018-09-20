@@ -14,11 +14,8 @@ public class Ex1 {
 
         amtToCovert = Float.parseFloat(amtToCovertAS);
 
-        while(!amtToCovertAS.equals(""))
-        {
-            JOptionPane.showMessageDialog(null, "You will receive " + String.format("%.2f", (amtToCovert * exRate)) + " Euro from " + amtToCovert + " Pounds at the exchange rate found in title", "Exchange Rate: " + exRate, JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(null, "You will receive " + String.format("%.2f", (amtToCovert * exRate)) + " Euro from " + amtToCovert + " Pounds at the exchange rate found in title", "Exchange Rate: " + exRate, JOptionPane.INFORMATION_MESSAGE);
 
-            // System.out.printf("%s",String.format("%.2f",(amtToCovert * exRate)));
-        }
+        // System.out.printf("%s",String.format("%.2f",(amtToCovert * exRate)));
     }
 }
