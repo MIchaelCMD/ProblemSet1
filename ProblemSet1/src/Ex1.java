@@ -20,6 +20,8 @@ public class Ex1 {
 
             // System.out.printf("%s",String.format("%.2f",(amtToCovert * exRate)));
 
+
+            // CHANGES ARE FUNNNNNN
         }
     }
 }
