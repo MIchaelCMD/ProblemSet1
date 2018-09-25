@@ -22,8 +22,13 @@ public class Ex3 {
         JTextArea textArea = new JTextArea(10,40);
         Font f = new Font("monospaced",Font.PLAIN,12);
         textArea.setFont(f);
-        textArea.setText(String.format("%s\n\n","QUOTATION FOR " + name));
+        textArea.setText(String.format("%s\n\n","QUOTATION FOR " + name + "\n\n"));
 
-        textArea.append(String.format("%-10d%d\n","Length of Room",length));
+
+        JOptionPane.showMessageDialog(null,"Length of Room: " + length + "\n" +
+                "Width of room: " + width + "m\n" +
+                "Total area of room: " + area + "m\n" +
+                "Cost per square metre of carpet: " + cost + " Euro\n" +
+                "Total cost of carpet: " + totalCost + " Euro","Final Summary",JOptionPane.INFORMATION_MESSAGE);
     }
 }
