@@ -12,6 +12,5 @@ public class Ex4 {
               "Your initial is: " + initial + ".\n" +
               "Why not? " + fullName.toUpperCase() + ".\n" +
               "Your surname is: " + surname + ".");
-
     }
 }
