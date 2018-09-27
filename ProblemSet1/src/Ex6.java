@@ -21,5 +21,7 @@ public class Ex6 {
     private double cube(int i) {
 
         return textArea.append(String.format("%-10d%d\n",i,i * i * i));
+
+        //Test??
     }
 }
