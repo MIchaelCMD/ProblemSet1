@@ -10,13 +10,22 @@ public class Ex7 {
 
         while(userNum != -1)
         {
-            isEven(userNum);
+            if(isEven(userNum))
+                System.out.println("This number is even");
+            else
+                System.out.println("This number is odd");
+
+
+            userNumAS = JOptionPane.showInputDialog("Enter a number: ");
+
+            userNum = Integer.parseInt(userNumAS);
+
         }
     }
 
-    public int isEven(int Num1)
+    public static boolean isEven(int Num1)
     {
-        boolean even = (Num1%2);
+        boolean even = (Num1%2)==0;
 
         return even;
 
