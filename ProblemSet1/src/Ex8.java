@@ -13,5 +13,8 @@ public class Ex8 {
             arrayAS[i]= JOptionPane.showInputDialog("Enter Value For Array["+(i + 1)+"].");
 
         }
+
+        JOptionPane.showMessageDialog(null,"The first value in the array is: " +
+                arrayAS[0] + "\nThe fifth value is: " + arrayAS[4] +".");
     }
 }
