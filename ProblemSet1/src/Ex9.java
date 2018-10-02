@@ -6,7 +6,7 @@ public class Ex9 {
         String[] weightsAS = new String[10];
         String weightOutput = "";
         double[] weights = new double[10];
-        int under250 = 0, over400 = 0;
+        int under250 = 0, over400 = 0, minValue = weights[0];
 
         for(int i = 0; i < weightsAS.length; i++)
         {
@@ -26,13 +26,13 @@ public class Ex9 {
             {
                 over400++;
             }
+
+            if(weights[i] < )
         }
-
-
 
         JOptionPane.showMessageDialog(null,"Weights: " + weightOutput + "\n" +
                 "Total animals below 250KG: " + under250 + "\n" +
-                "Percentage over 400KG: " + (over400*10d) + "%\n" +
+                "Percentage over 400KG: " + (over400*10) + "%\n" +
                 "","Animal Weight Stats",JOptionPane.INFORMATION_MESSAGE);
     }
 }
